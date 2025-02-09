@@ -68,6 +68,121 @@
     border-radius: 12px;
     border: none;
   }
+  /* banner section design */
+  .banner{
+    width: 1158.61px;
+    margin: 0 auto;
+    display: flex;
+    /* align-items: center; */
+    gap: 50px;
+    border: 1px solid saddlebrown;
+  }
+  .empower{
+    width: 640px;
+    height: 331px;
+    margin: 122px 0px;
+    
+  }
+  .empower-title{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  #empowering{
+    color: #FEA301;
+  }
+  #student-age{
+    color: #111111 ;
+  }
+  #vision{
+    color: #01ACFD;
+  }
+  .empower-des{
+    color: rgba(17, 17, 17, 0.64);
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .btn-2{
+    background-color: #111111;
+    border: none;
+    border-radius: 12px;
+    width: 197px;
+    height: 50px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 0;
+  }
+  .image-02{
+    width: 486.61px;
+  }
+  /* curriculum design */
+  .curriculum{
+    width: 460.61px;
+    margin: 0 auto;
+  }
+  .curriculum-headline{
+    color: #000000;
+    font-size: 2.875rem;
+    font-weight: 700;
+    
+  }
+  /* card design */
+  .card{
+    width: 1160px;
+    height: 481.5px;
+    display: flex;
+    gap: 28.29px;
+    margin: 0 auto;
+    border: 1px solid red;
+  }
+  .card-1{
+    border: 1px solid tomato;
+    width: 367.8px;
+    border-radius: 18.86px;
+    justify-content: center;
+  }
+  .card-headline{
+    font-weight: 700;
+    font-size: 1.53rem;
+    color: #202020;
+  }
+  .card-des{
+    font-weight: 500;
+    font-size: .943rem;
+    color: #808080;
+  }
+  #read-more-1{
+    color: #64C8FF;
+  }
+  #read-more-2{
+    color: #F0AA00;
+  }
+  #read-more-3{
+    color: #8700FF;
+  }
+  .card-2{
+    border: 1px solid tomato;
+    width: 367.8px;
+    border-radius: 18.86px;
+  }
+  .card-3{
+    border: 1px solid tomato;
+    width: 367.8px;
+    border-radius: 18.86px;
+  }
+  .card-image-1{
+    margin: 52.82px 115.54px 32.07px 115.5px;
+  }
+  .card-image-2{
+    margin: 52.82px 113.14px 32.07px 113.18px;
+  }
+  .card-image-3{
+    margin: 52.82px 115.54px 32.07px 115.5px;
+  }
   /* media quiries for mobile devices */
   @media screen and (min-width:700px) and (max-width: 800px) {
       .school{
