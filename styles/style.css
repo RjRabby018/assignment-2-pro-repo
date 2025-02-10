@@ -137,42 +137,54 @@
     display: flex;
     gap: 28.29px;
     margin: 0 auto;
-    border: 1px solid red;
   }
   .card-1{
-    border: 1px solid tomato;
+    border: 2px solid #DEF5FF;
     width: 367.8px;
+    height: 476.78px;
     border-radius: 18.86px;
-    justify-content: center;
+    background: linear-gradient(to bottom, #DEF5FF 0%, rgba(224, 243, 255, 0.5) 10%, rgba(255, 255, 255, 0) 30%);
+
   }
+  
   .card-headline{
     font-weight: 700;
     font-size: 1.53rem;
     color: #202020;
+    text-align: center;
+    margin-top: 0;
   }
   .card-des{
     font-weight: 500;
     font-size: .943rem;
     color: #808080;
+    text-align: center;
   }
   #read-more-1{
+    margin-top: 34px;
     color: #64C8FF;
   }
   #read-more-2{
+    margin-top: 34px;
     color: #F0AA00;
   }
   #read-more-3{
+    margin-top: 34px;
     color: #8700FF;
   }
   .card-2{
-    border: 1px solid tomato;
+    border: 2px solid #FFF4DC;
     width: 367.8px;
+    height: 476.78px;
     border-radius: 18.86px;
+    background: linear-gradient(to bottom, #FFF4DC 0%, rgba(255, 244, 220, 0.5) 10%, rgba(255, 255, 255, 0) 30%);
   }
   .card-3{
-    border: 1px solid tomato;
+    border: 2px solid #F2E8FF;
     width: 367.8px;
+    height: 476.78px;
     border-radius: 18.86px;
+    background: linear-gradient(to bottom, #F2E8FF 0%, rgba(242, 232, 255, 0.5) 10%, rgba(255, 255, 255, 0) 30%);
   }
   .card-image-1{
     margin: 52.82px 115.54px 32.07px 115.5px;
