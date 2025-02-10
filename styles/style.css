@@ -7,6 +7,9 @@
   }
 
   /* shared styles */
+  /* .image-body{
+    background-image: url('../assets/bg.png');
+  } */
   /* black color */
    .black{
     color: #111111;
@@ -195,6 +198,78 @@
   .card-image-3{
     margin: 52.82px 115.54px 32.07px 115.5px;
   }
+  /* stories */
+  .story{
+    color: #000000;
+    font-weight: 700;
+    font-size: 2.875rem;
+    text-align: center;
+  }
+  .our-story{
+    display: flex;
+    width: 1160px;
+    margin: 0 auto;
+    gap: 18.73px;
+  }
+  .toddler{
+    width: 540.27px;
+    border: 1px solid salmon;
+  }
+  .toddler-image{
+    width: 100%;
+    height: 337px;
+    margin-bottom: 58.63px;
+    border-radius: 13px 13px 0px 0px;
+  }
+  .toddler-headline{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #000000;
+    width: 463.57px;
+    margin-top: 0px;
+    /* margin: 0px 38.35px 38.35px 0px ; */
+    margin-left: 38.35px;
+    margin-right: 38.35px;
+    border: 1px solid blue;
+  }
+  .toddler-des{
+    font-weight: 500;
+    font-size: .943rem;
+    color: #808080;
+    margin: 47.93px 68.86px 34.52px 38.35px;
+    border: 1px solid salmon;
+  }
+  .teenage{
+    display: 601px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 19.17px;
+  }
+  .teen-childs{
+    border-radius: 16px;
+    border: 1px solid red;
+  }
+  .teen-image{
+    width: 100%;
+    height: 177px;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 38.33px;
+  }
+  .teen-headline{
+    width: 214px;
+    margin: 0 auto;
+    color: #000000;
+    font-size: .9587rem;
+    font-weight: 700;
+  }
+  #view{
+    /* display: flex; */
+    width: 197px;
+    margin: 80px auto;
+    /* justify-content: center; */
+    border: 1px solid blue;
+  }
+
   /* media quiries for mobile devices */
   @media screen and (min-width:700px) and (max-width: 800px) {
       .school{
