@@ -50,7 +50,6 @@
   }
   #home{
     color: #FEA301;
-    font-weight: 500;
   }
   .about{
    color: #01ACFD;
@@ -263,13 +262,35 @@
     font-weight: 700;
   }
   #view{
-    /* display: flex; */
     width: 197px;
     margin: 80px auto;
-    /* justify-content: center; */
     border: 1px solid blue;
   }
-
+  /* footer design */
+  footer{
+    background-color: #01ACFD;
+  }
+  .footer-container{
+    display: flex;
+    width: 1070.91px;
+    justify-content: space-between;
+    margin-left: 171.6px;
+  }
+  .kids-edu{
+    width: 400px;
+  }
+  #export{
+    display: flex;
+  }
+  .export-image{
+    height: 81.65px;
+  }
+  .footer-edu{
+    color: #FFFFFF;
+    font-size: 2.633rem;
+    font-weight: 700;
+    /* margin: 0 auto; */
+  }
   /* media quiries for mobile devices */
   @media screen and (min-width:700px) and (max-width: 800px) {
       .school{
