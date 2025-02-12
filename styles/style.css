@@ -248,6 +248,8 @@
     width: 540.27px;
     background-color: #FFFFFF;
     border-radius: 16px;
+    position: relative;
+    overflow: hidden;
   }
   .toddler-image{
     width: 100%;
@@ -270,8 +272,10 @@
     color: #808080;
     margin: 47.93px 68.86px 34.52px 38.35px;
   }
-  .chall-1{
-    border: 1px solid red;
+  .date-label{
+    position: absolute;
+    top: 297.14px;
+    left: 38.35px;
     border-radius: 47.93px;
     width: 174.51px;
     background-color: #3CD8E8;
@@ -282,8 +286,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 30px;
-    margin-bottom: -200px;
+   
   }
   .teenage{
     display: 601px;
@@ -294,6 +297,30 @@
   .teen-childs{
     border-radius: 16px;
     background-color: #FFFFFF;
+    position: relative;
+    overflow: hidden;
+  }
+  .date-label-2{
+    position: absolute;
+    top: 141.57px;
+    left: 38.35px;
+    border-radius: 47.93px;
+    width: 174.51px;
+    background-color: #95B226;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 500;
+    height: 38.35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  #date-label-3{
+    background-color: #5D58F0; 
+  }
+  #date-label-5{
+    width: 127.4px;
   }
   .teen-image{
     width: 100%;
