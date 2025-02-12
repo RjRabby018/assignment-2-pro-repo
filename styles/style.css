@@ -77,7 +77,6 @@
     display: flex;
     /* align-items: center; */
     gap: 50px;
-    border: 1px solid saddlebrown;
   }
   .empower{
     width: 640px;
@@ -226,6 +225,12 @@
   }
 
   /* stories */
+  .story-grad{
+    background: linear-gradient(to bottom, #F8F5F0, #FCE5A5);
+    margin: 60px 0px 60px 0px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
   .story{
     color: #000000;
     font-weight: 700;
@@ -237,10 +242,12 @@
     width: 1160px;
     margin: 0 auto;
     gap: 18.73px;
+   
   }
   .toddler{
     width: 540.27px;
-    border: 1px solid salmon;
+    background-color: #FFFFFF;
+    border-radius: 16px;
   }
   .toddler-image{
     width: 100%;
@@ -254,17 +261,29 @@
     color: #000000;
     width: 463.57px;
     margin-top: 0px;
-    /* margin: 0px 38.35px 38.35px 0px ; */
     margin-left: 38.35px;
     margin-right: 38.35px;
-    border: 1px solid blue;
   }
   .toddler-des{
     font-weight: 500;
     font-size: .943rem;
     color: #808080;
     margin: 47.93px 68.86px 34.52px 38.35px;
-    border: 1px solid salmon;
+  }
+  .chall-1{
+    border: 1px solid red;
+    border-radius: 47.93px;
+    width: 174.51px;
+    background-color: #3CD8E8;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 500;
+    height: 47.93px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    margin-bottom: -200px;
   }
   .teenage{
     display: 601px;
@@ -274,7 +293,7 @@
   }
   .teen-childs{
     border-radius: 16px;
-    border: 1px solid red;
+    background-color: #FFFFFF;
   }
   .teen-image{
     width: 100%;
@@ -291,8 +310,7 @@
   }
   #view{
     width: 197px;
-    margin: 80px auto;
-    border: 1px solid blue;
+    margin: 80px 653px 40px 653px;
   }
   /* footer design */
   footer{
