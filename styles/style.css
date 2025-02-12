@@ -197,6 +197,34 @@
   .card-image-3{
     margin: 52.82px 115.54px 32.07px 115.5px;
   }
+  /* arrow and marquee*/
+  .arrow{
+    display: flex;
+    width: 130px;
+    margin: 80px 686.6px 60px 686.6px;
+  }
+  .marquee {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+
+  .marquee p {
+    display: inline-block;
+    animation: marquee 25s linear infinite;
+  }
+
+  @keyframes marquee {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
   /* stories */
   .story{
     color: #000000;
@@ -274,7 +302,8 @@
     display: flex;
     width: 1070.91px;
     justify-content: space-between;
-    margin-left: 171.6px;
+    margin-left:  171.6px ;
+    padding: 123px 0 123px 0;
   }
   .kids-edu{
     width: 400px;
@@ -284,13 +313,44 @@
   }
   .export-image{
     height: 81.65px;
+    margin-top: 13px;
   }
   .footer-edu{
     color: #FFFFFF;
     font-size: 2.633rem;
     font-weight: 700;
-    /* margin: 0 auto; */
+    margin: 0 0 0 10px ;
   }
+  .footer-edu-des{
+    margin: 35.35px 0 0 7px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 1.25rem;
+  }
+  .About-sc{
+    color:#FFFFFF ;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 0px;
+  }
+  footer div ul{
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+  footer div ul li{
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #FFFFFF ;
+  }
+  .in-touch{
+    margin-top: 0px;
+    font-weight: 700;
+    font-size: 1.625rem;
+    color: #FFFFFF ;
+  }
+
+
   /* media quiries for mobile devices */
   @media screen and (min-width:700px) and (max-width: 800px) {
       .school{
